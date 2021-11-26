@@ -4,8 +4,8 @@ import { AuthContext } from '../../auth/authContext';
 import { types } from '../../types/types';
 
 export const LoginScreen = () => {
-	const navigate = useNavigate();
 	const { dispatch } = useContext(AuthContext);
+	const navigate = useNavigate();
 
 	const handleLogin = () => {
 		const action = {
